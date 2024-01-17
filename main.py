@@ -1,11 +1,10 @@
 import random
-import pygame
 import pygame_menu
 import pygame as pg
-pygame.init()
+pg.init()
 
 
-surface = pygame.display.set_mode((720, 400))
+surface = pg.display.set_mode((720, 400))
 def start_the_game():
     WSIZE = (720, 480)
 
